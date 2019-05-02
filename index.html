@@ -24,21 +24,96 @@
     <script  src="js/index.js"></script>
     <div>
       <header id="header">
-        <img src="img/original_trombones.png" id="header-img">
+        <img src="img/original_trombones.png" id="header-img" width="300px" height="34px">
+
+
         <nav id="nav-bar">
           <li class="nav-link"><a class="nav-link" href="#features">Features</a></li>
           <li class="nav-link"><a class="nav-link" href="#how-it-works">How It Works</a></li>
           <li class="nav-link"><a class="nav-link" href="#pricing">Pricing</a></li>
         </nav>
-      </header>
-      <section id="how-it-works">
-           <iframe id="video" height="315" src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen=""></iframe>
-         </section>
+      </header>     
+
+
       <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
         <h2>Handcrafted, home-made masterpieces</h2>
         <input type="email" name="email" id="email" placeholder="Enter your email address">
         <input type="submit" name="submit">
       </form>
+
+      <section id="features" class="flex-container">
+        <div class="grid">
+          <div class="icon"></div>
+          <div class="desc">
+            <h2>Prime Materials</h2>
+            <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+          </div>         
+        </div>
+        <div class="grid">
+          <div class="icon"></div>
+          <div class="desc">
+            <h2>Fast Shipping</h2>
+            <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+          </div>         
+        </div>
+        <div class="grid">
+          <div class="icon"></div>
+          <div class="desc">
+            <h2>Quality Assurance</h2>
+            <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+          </div>         
+        </div>
+      </section>
+
+      <section id="how-it-works">
+         <iframe id="video" height="315" src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen=""></iframe>
+      </section>
+
+      <section id="pricing">
+        <div class="template">
+          <div class="level">
+            Tenor Tronbone
+          </div>
+          <h2>$600</h2>
+          <ol>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum dolor.</li>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum.</li>
+          </ol>
+          <button class="btn">Select</button>
+        </div>
+
+        <div class="template">
+          <div class="level">
+            Bass Tronbone
+          </div>
+          <h2>$900</h2>
+          <ol>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum dolor.</li>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum.</li>
+          </ol>
+          <button class="btn">Select</button>
+        </div>
+
+        <div class="template">
+          <div class="level">
+            Valve Tronbone
+          </div>
+          <h2>$1200</h2>
+          <ol>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum dolor.</li>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum.</li>
+          </ol>
+          <button class="btn">Select</button>
+        </div>
+      </section>
+
+
         
     </div>
   </body>
